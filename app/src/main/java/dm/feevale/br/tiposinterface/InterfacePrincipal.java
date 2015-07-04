@@ -66,7 +66,7 @@ public class InterfacePrincipal extends ActionBarActivity {
     public void buscaCampos( View v ) {
 
         Intent i = new Intent( this, TelaEntrada.class );
-        startActivityForResult( intent, 1 );
+        startActivityForResult( i, 1 );
     }
 
     @Override
