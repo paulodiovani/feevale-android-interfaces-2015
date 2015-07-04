@@ -4,8 +4,6 @@ import android.app.AlertDialog;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -34,19 +32,11 @@ public class InterfacePrincipal extends ActionBarActivity {
             }
         }
 
-/*
-        AlertDialog.Builder builder = new AlertDialog.Builder( this );
-        builder.setTitle( "Atenção" );
-        builder.setMessage( "Usuário ou Senha inválida" );
-        builder.setPositiveButton( "OK", null );
-        builder.show();
-*/
         new AlertDialog.Builder( this )
             .setTitle( "Atenção" )
             .setMessage( "Usuário ou Senha inválida" )
             .setPositiveButton( "OK", null )
             .show();
-
     }
 
     public void vai( View v ) {
