@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TiposInterface</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ttl_login">Tela de Login</string>
+    <string name="ttl_nome">Nome</string>
+    <string name="ttl_senha">Senha</string>
+    <string name="ttl_ok">Entrar</string>
+    <string name="ttl_atencao">Atenção</string>
+    <string name="ttl_busca_campos">Busca Campos</string>
+    <string name="msg_bemvinda">Bem vindo</string>
+    <string name="msg_cancela">Cancela</string>
+    <string name="msg_tela_entrada">Tela de Entrada</string>
+    <string name="msg_senha_invalida">usuário ou senha inválida</string>
+    <string name="msg_preencha_nome">Preencha o Nome para Prosseguir</string>
+    <string name="msg_preencha_senha">Preencha a Senha para Prosseguir</string>
+
+</resources>
