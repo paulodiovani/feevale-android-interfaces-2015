@@ -26,6 +26,16 @@ proguard/
 # Log Files
 *.log
 
-# Android studio
-.idea
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
 .DS_Store
+
+# Eclipse project files
+.classpath
+.project
+
+# Android studio files
+.idea/
+*.iml
