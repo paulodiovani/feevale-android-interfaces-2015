@@ -21,7 +21,6 @@ public class TelaEntrada extends Activity {
 
     public void voltaComDados( View v ) {
 
-
         EditText nome = (EditText) findViewById( R.id.edtNome );
         EditText senha = (EditText) findViewById( R.id.edtSenha );
 
